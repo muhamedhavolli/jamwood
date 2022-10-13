@@ -1,0 +1,345 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    background-color: transparent;
+    width: 100%;
+    height: 80px;   
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    backdrop-filter: blur(10px);   
+}
+.header-elements{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height:80px;   
+}
+.menu{
+    font-size: 30px;
+    color: white;
+}
+.menu:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.section1{
+    background-image: url(./Chrome-features-kitchen-all-black-panelling-concrete-floor.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+    width: 100%;
+    height: 850px;
+    
+}
+
+.permbajtja{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    color: whitesmoke;
+    
+}
+.jamwood{
+    color: green;
+    font-style:initial;
+    font-weight: bolder;
+}
+.p1{
+    font-size: 90px;
+    padding-bottom: 50px;
+    color: white;
+}
+.p2{
+    font-size: 30px;
+}
+.linqet{
+    padding-top: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color:aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+.linqet a{
+    font-style: bolder;
+    color: white;
+    filter: none;
+    font-size: 23px;
+    text-decoration: none;
+    border: 3px solid lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 90px;
+}
+.linqet a:hover{
+    font-size: 25px;
+}
+
+.services{
+    background-image: url(./design.jpg);
+    background-repeat: none;
+    background-size: 100%;
+}
+.services h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.kartat{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    
+   
+}
+.karta1{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 40%;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 10px;
+}
+.karta1 img{
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+}
+.teksti h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: lightgreen;
+}
+.teksti p{
+    margin-top: 20px;
+    color: rgb(204, 166, 118);
+    font-size: 20px;
+
+}
+
+.karta2{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 40%;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+.karta2 img{
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.karta3{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 40%;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 10px;
+}
+.karta3 img{
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+}
+.main{
+      background-image: url(./design.jpg);
+      background-repeat: none;
+      background-size: 100%;
+      
+}
+.clients h1{
+    text-align: center;
+    padding-top: 3%;
+    color:aliceblue;
+}
+.client-logos-wrapper{
+    padding-top: 3%;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    place-items: center;
+    gap: 5%;
+
+}
+.client-logos{
+    width: 50%;
+}
+.client-logos:hover{
+    width: 52%;
+    cursor: pointer;
+}
+
+.contact-us{
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+}
+.contact-us-container{
+    padding-top: 3%;
+    line-height: 50px;
+}
+.socialmedia-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.socialmedia-icons-ig:hover{
+    width: 50px;
+    cursor: pointer;
+}
+.socialmedia-icons-ig{
+    padding-right: 15px ;
+}
+.footeri{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .linqet{
+        flex-direction: column;
+    }
+    .client-logos-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .client-logos{
+        padding-top: 20px;
+    }
+    .permbajtja{
+        padding-top:80px;
+    }
+    .p1 {
+        font-size: 70px;
+        padding-bottom: 50px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        line-height: 100px;
+        text-align: center;
+        padding-top: 80px;
+        
+    }
+    .p2{
+        text-align: center;
+    }
+    
+    .kartat{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .karta1 {
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid white;
+        display: flex;
+        border-radius: 10px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: -5px;
+    }
+    .karta2 {
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid white;
+        display: flex;
+        border-radius: 10px;
+        height: 400px;
+        overflow: hidden;
+        margin-left: -5px;
+       
+    }
+    
+
+.karta3 {
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 100%; 
+    max-width: 100%;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 10px;
+    height: 400px;
+        overflow: hidden;
+        margin-left: -5px;
+}
+.teksti h1{font-size: 20px;} 
+.teksti p{font-size: 15px;}
+}
+
+@media only screen and (min-width:601px) and (max-width:1056px){
+
+    .linqet{
+        flex-direction: column;
+        text-align: center;
+    }
+    .p1 {
+        font-size: 70px;
+        padding-bottom: 50px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        line-height: 100px;
+        text-align: center;
+        padding-top: 80px;
+        
+    }
+   .karta1{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: -5px;
+   }
+   .karta2{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: -5px;
+   }
+   .karta3{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: -5px;
+   }
+   .client-logos-wrapper{
+    width: 100%;
+    padding-top: 50px;
+   }
+}
